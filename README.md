@@ -11,7 +11,7 @@ The task is partially done. The functions fetches the latest block from the api 
 - [ ] Add send notification to SNS function.
 - [ ] Add subscription for the created topic/
 
-## cHECK
+## CHECK
 
 ```
 cd terraform
