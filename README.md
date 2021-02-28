@@ -1,4 +1,4 @@
-## Task lists
+## TASK LIST
 - [x] Write a infrastructure as code specification that deploys a "Hello world" lambda functionor with SAM or serverless.
 - [x] Modify your code to provision a SNS topic with terraform.
 - [ ] Extend the above lambda function to fetch the latest blocks and send a notification to an SNS topic for each new block.
@@ -11,7 +11,7 @@ The task is partially done. The functions fetches the latest block from the api 
 - [ ] Add send notification to SNS function.
 - [ ] Add subscription for the created topic/
 
-## Check
+## cHECK
 
 ```
 cd terraform
@@ -20,7 +20,7 @@ terraform plan
 tarraform apply
 ```
 
-## Desroy resources
+## DESTROY RESOURCES
 
 ```
 terraform destroy
