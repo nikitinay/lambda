@@ -6,9 +6,9 @@
 ## Check
 cd terraform
 
-terraform init
+- terraform init
 
-terraform plan
+- terraform plan
 
 tarraform apply
 
