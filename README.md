@@ -5,8 +5,11 @@
 
 ## Check
 cd terraform
+
 terraform init
+
 terraform plan
+
 tarraform apply
 
 ## Desroy resources
