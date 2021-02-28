@@ -8,7 +8,7 @@ The task is partially done. The functions fetches the latest block from the api 
 - [ ] Add trigger for function.
 - [ ] Save state about the current block.
 - [ ] Add logic for comparsion the current block and the latest block.
-- [ ] Add send notification to SNS function.
+- [ ] Add function for send notification to SNS.
 - [ ] Add subscription for the created topic.
 
 ## CHECK
