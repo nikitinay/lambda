@@ -9,7 +9,7 @@ The task is partially done. The functions fetches the latest block from the api 
 - [ ] Save state about the current block.
 - [ ] Add logic for comparsion the current block and the latest block.
 - [ ] Add send notification to SNS function.
-- [ ] Add subscription for the created topic/
+- [ ] Add subscription for the created topic.
 
 ## CHECK
 
