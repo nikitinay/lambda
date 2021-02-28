@@ -14,6 +14,9 @@ The task is partially done. The functions fetches the latest block from the api 
 ## CHECK
 
 ```
+export aws_access_key_id=XXXXXXXXXXXXXXXXXXXX 
+export aws_secret_access_key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 cd terraform
 terraform init
 terraform plan
