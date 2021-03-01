@@ -3,7 +3,7 @@
 - [x] Modify your code to provision a SNS topic with terraform.
 - [ ] Extend the above lambda function to fetch the latest blocks and send a notification to an SNS topic for each new block.
 
-The task is partially done. The functions fetches the latest block from the api https://blockchain.info/latestblock and writes it to console. 
+The task is partially done. The function fetches the latest block from the api https://blockchain.info/latestblock and writes it to console. 
 
 ## TODO
 - [ ] Add trigger for function.
