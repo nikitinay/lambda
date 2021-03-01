@@ -109,7 +109,11 @@ resource "aws_iam_policy" "lambda_logging" {
 }
 EOF
 }
-
+resource "aws_iam_role_policy_attachment" "lambda_network" {
+  depends_on = [aws_sns_topic.topic]
+  role       = aws_iam_role.iam_for_lambda.name
+  policy_arn = aws_iam_policy.lambda_logging.arn
+}
 
 resource "aws_iam_policy" "lambda_networking" {
   depends_on  = [aws_sns_topic.topic]
